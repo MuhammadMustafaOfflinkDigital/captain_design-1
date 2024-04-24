@@ -3123,135 +3123,11 @@ input:focus~label
 }
 
 
-                                                                /* TESTIMONIAL SECTION */
+                                                    /* TESTIMONIAL SECTION */
 
 .testimonial-heading2{
     color: var(--main-color);
 }
-
-
-                                                    /* ==========CONTACT US PAGE START========== */
-.contact-section-start{
-    padding-top: 100px;
-    height: auto;
-    width: 100vw;
-}
-.contact-heading{
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
-
-
-/* Typewriter CSS */
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-}
-
-@keyframes blink {
-    50% { border-right: 2px solid transparent }
-    100% { border-right: none; }
-}
-
-.typewriter-text {
-    overflow: hidden;
-    font-size: 8vw;
-    border-right: 2px solid;
-    white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: 2px;
-    animation: typing 2.5s steps(40, end), blink .75s step-end forwards;
-}
-
-.contact-icons{
-    
-    margin: 5vw 5vw;
-    padding: 1vw 0;
-}
-.contact-icons-images{
-    cursor: pointer;
-    border-radius: 50%;
-    padding: 10px;
-    margin: 2vw 0;
-    width: 110px;
-    height: 110px;
-    border: 2px solid #e6b412;
-    border-radius: 50%; 
-    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 4px 6px var(--third-color);
-}
-.contact-heading1{
-    color: var(--third-color);
-}
-.contact-icons-images:hover{
-    transform: scale(1.1);
-    background-color: var(--third-color);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
-}
-
-.contact-heading2{
-   color: var(--text-color);
-   font-weight: 400;
-   
-}
-.contact-heading2-address{
-    color: var(--text-color);
-   font-weight: 400;
-   width: 10vw;
-}
-.contact-icons-main-div{
-    position: relative;
-    border: 4px solid var(--text-color);
-    border-radius: 40px;
-    outline: 3px dashed var(--third-color);
-    outline-offset: 5px;
-    background-image: linear-gradient(to right,rgb(18, 18, 85), #2f36a3, rgb(22, 21, 92));
-}
-.island{
-    width: 20px;
-    height: 120px;
-    background-color: var(--text-color);
-    border-radius: 10px;
-    position: absolute;
-    left: 1%;
-    top: 40%;
-}
-.camera1{
-    width: 20px;
-    height: 20px;
-    background-color: var(--text-color);
-    border-radius: 50%;
-    position: absolute;
-    left: 1%;
-    top: 32%;
-}
-.mobile-icon1{
-    font-size: 32px;
-    color: var(--text-color);
-    position: absolute;
-    right: 1%;
-    top: 20%;
-    rotate: 90deg;
-    
-}
-
-.mobile-icon2{
-    font-size: 32px;
-    color: var(--text-color);
-    position: absolute;
-    right: 1%;
-    top: 50%;
-    rotate: 90deg;
-}
-.mobile-icon3{
-    font-size: 32px;
-    color: var(--text-color);
-    position: absolute;
-    right: 1%;
-    top: 80%;
-    rotate: 90deg;
-}
-
 
 
                                             /* =========== Footer Section ========= */
@@ -3544,4 +3420,153 @@ input:focus~label
     margin-right: 20px;
 }
 
-                                            
+
+                                                    /* ==========CONTACT US PAGE START========== */
+.contact-section-start
+{
+    padding-top: 100px;
+    height: auto;
+    width: 100vw;
+}
+.contact-heading
+{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+
+/* Typewriter CSS */
+@keyframes typing 
+{
+    from 
+    { 
+        width: 0 
+    }
+    to 
+    { 
+        width: 100% 
+    }
+}
+
+@keyframes blink 
+{
+    50% 
+    { 
+        border-right: 2px solid transparent 
+    }
+    100% 
+    { 
+        border-right: none; 
+    }
+}
+
+.typewriter-text 
+{
+    overflow: hidden;
+    font-size: 8vw;
+    border-right: 2px solid;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    animation: typing 2.5s steps(40, end), blink .75s step-end forwards;
+}
+
+.contact-icons
+{
+    
+    margin: 5vw 5vw;
+    padding: 1vw 0;
+}
+.contact-icons-images
+{
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 2vw 0;
+    width: 110px;
+    height: 110px;
+    border: 2px solid #e6b412;
+    border-radius: 50%; 
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px var(--third-color);
+}
+.contact-heading1
+{
+    color: var(--third-color);
+}
+.contact-icons-images:hover{
+    transform: scale(1.1);
+    background-color: var(--third-color);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-heading2
+{
+    color: var(--text-color);
+    font-weight: 400;
+    
+}
+.contact-heading2-address
+{
+    color: var(--text-color);
+    font-weight: 400;
+    width: 10vw;
+}
+.contact-icons-main-div
+{
+    position: relative;
+    border: 4px solid var(--text-color);
+    border-radius: 40px;
+    outline: 3px dashed var(--third-color);
+    outline-offset: 5px;
+    background-image: linear-gradient(to right,rgb(18, 18, 85), #2f36a3, rgb(22, 21, 92));
+}
+.island
+{
+    width: 20px;
+    height: 120px;
+    background-color: var(--text-color);
+    border-radius: 10px;
+    position: absolute;
+    left: 1%;
+    top: 40%;
+}
+.camera1
+{
+    width: 20px;
+    height: 20px;
+    background-color: var(--text-color);
+    border-radius: 50%;
+    position: absolute;
+    left: 1%;
+    top: 32%;
+}
+.mobile-icon1
+{
+    font-size: 32px;
+    color: var(--text-color);
+    position: absolute;
+    right: 1%;
+    top: 20%;
+    rotate: 90deg;
+    
+}
+
+.mobile-icon2
+{
+    font-size: 32px;
+    color: var(--text-color);
+    position: absolute;
+    right: 1%;
+    top: 50%;
+    rotate: 90deg;
+}
+.mobile-icon3
+{
+    font-size: 32px;
+    color: var(--text-color);
+    position: absolute;
+    right: 1%;
+    top: 80%;
+    rotate: 90deg;
+}                                                                                           
