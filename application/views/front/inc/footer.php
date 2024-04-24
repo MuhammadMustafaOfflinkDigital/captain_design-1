@@ -85,7 +85,7 @@
                 </div>
             </div>
             <div class="copy_right">
-                <h2>© Captain Design Agency is a product of Offlink Digital LLC. 2024 All rights reserved</h2> 
+                <h2>&copy; Captain Design Agency is a product of Offlink Digital LLC. 2024 All rights reserved</h2> 
                 <a href="https://captaindesignagency.com/terms_and_condition">Terms And Conditions</a> 
                 <a href="https://captaindesignagency.com/privacy_policy">Privacy Policy</a> 
             </div>

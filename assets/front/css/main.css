@@ -411,7 +411,7 @@ button, input {
 
 .header_wrapper .navbar .container
 {
-	background-color: #D7D8D9;
+	background-color: var(--fourth-color);
 	border-radius: 1vw;
 	padding: 0 3vw;
 }
@@ -508,10 +508,11 @@ button, input {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: var(--text-color);
+    background-color: var(--fourth-color);
     -webkit-box-shadow: 0 4px 6px 0 rgba(12, 0, 46, .05);
     box-shadow: 0 4px 6px 0 rgba(12, 0, 46, .05);
 }
+
 
                                             /* =========  Service Drop Down  ========= */
 
@@ -852,6 +853,8 @@ input:focus~label
 .service
 {
     background-color: var(--main-color);
+    overflow: hidden;
+    width: 100%;
 }
 
 .service .service-background
@@ -901,7 +904,7 @@ input:focus~label
 .service .service-path-img 
 {
     position: absolute;
-    top: 24vw;
+    top: 30vw;
 }
 
 .service .service-path-img img
@@ -911,7 +914,7 @@ input:focus~label
 
 .service .service-menu
 {
-    /* position: absolute; */
+    position: relative;
     z-index: 5;
     width: 180px;
     height: 180px;
@@ -920,7 +923,69 @@ input:focus~label
     border-radius: 50%;
     transition: all .5s ease-in-out;
     transform: translateY(300px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
 }
+
+.service .service-menu .service-menu-content
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-100%);
+    background-color: var(--main-color);
+    border-radius: 50%;
+    border: 4px solid var(--second-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.service .service-menu:hover .service-menu-content
+{
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+}
+
+.service .service-menu img
+{
+    width: 90px;
+}
+
+.service .service-menu h5
+{
+    width: 150px;
+    text-align: center;
+}
+
+
+
 
 .service .service-menu-2
 {
@@ -930,15 +995,20 @@ input:focus~label
 
 .service .service-menu:hover 
 {
-    transform: scale(1.2) translateY(250px);
-    background-color: var(--main-color);
-    border: 4px solid var(--second-color);
-    border-radius: 50%;
+    transform: scale(1.1) translateY(270px);
+    -webkit-transform: scale(1.1) translateY(270px);
+    -moz-transform: scale(1.1) translateY(270px);
+    -ms-transform: scale(1.1) translateY(270px);
+    -o-transform: scale(1.1) translateY(270px);
 }
 
 .service .service-menu-2:hover
 {
-    transform: scale(1.2) translateY(120px);
+    transform: scale(1.1) translateY(120px);
+    -webkit-transform: scale(1.1) translateY(120px);
+    -moz-transform: scale(1.1) translateY(120px);
+    -ms-transform: scale(1.1) translateY(120px);
+    -o-transform: scale(1.1) translateY(120px);
 }
 
 .service .service-menu h5
@@ -951,9 +1021,15 @@ input:focus~label
     color: var(--second-color);
 }
 
+.service .service-card-container .service-section-card-container
+{
+    gap: 4.625vw;
+    margin-top: 18.25vw;
+}
+
 .service .service-card-container-img
 {
-    /* position: absolute; */
+    position: absolute;
     z-index: 1;
     margin-top: 20vw;
 }
@@ -965,72 +1041,108 @@ input:focus~label
 
 .service .maincontainer
 {
-    position: relative;
-    height: 13vw;
-    background: transparent;
-    z-index: 4;
-    margin-top: 1.7vw;
+	position: relative;
+	width: 14vw;
+	height: 18vw;
+	background: transparent;
+	z-index: 4;
+	margin-top: 1.7vw;
 }
 
 .service .maincontainer1
 {
-    transform: translateX(2.3vw);
+    transform: translateX(1vw);
+    -webkit-transform: translateX(1vw);
+    -moz-transform: translateX(1vw);
+    -ms-transform: translateX(1vw);
+    -o-transform: translateX(1vw);
 }
 
 .service .maincontainer2
 {
-    transform: translateX(0vw);
+    transform: translateX(.1vw);
+    -webkit-transform: translateX(.1vw);
+    -moz-transform: translateX(.1vw);
+    -ms-transform: translateX(.1vw);
+    -o-transform: translateX(.1vw);
 }
 
 .service .maincontainer3
 {
-    transform: translateX(-2.5vw);
+    transform: translateX(-1.45vw);
+    -webkit-transform: translateX(-1.45vw);
+    -moz-transform: translateX(-1.45vw);
+    -ms-transform: translateX(-1.45vw);
+    -o-transform: translateX(-1.45vw);
 }
 
 .service .maincontainer4
 {
-    transform: translateX(-4.7vw);
+    transform: translateX(-2.4vw);
+    -webkit-transform: translateX(-2.4vw);
+    -moz-transform: translateX(-2.4vw);
+    -ms-transform: translateX(-2.4vw);
+    -o-transform: translateX(-2.4vw);
 }
 
 .service .card
 {
-    position: absolute;
-    width: 200px;
-    height: 100%;
-    transform-style: preserve-3d;
-    transition: all 0.5s ease;
-    background: transparent;
-    border-radius: 1.5vw;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: all 0.5s ease;
+	background: transparent;
+	border-radius: 1.5vw;
 }
 
-.service .card:hover 
+.service .maincontainer:hover .card
 {
-    transform: rotateY(180deg);
+	transform: rotateY(180deg);
 }
 
 .service .front
 {
-    position: absolute;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+	background: transparent;
+	color: #333;
+	border-radius: 1.5vw;
+}
+
+.service .front img
+{
     width: 100%;
     height: 100%;
-    backface-visibility: hidden;
-    border-radius: 1.5vw;
 }
 
 .service .back
 {
-    position: absolute;
-    width: 220px;
-    height: 100%;
-    backface-visibility: hidden;
-    background: #fafafa;
-    color: var(--main-color);
-    transform: rotateY(180deg);
-    padding:.5vw;
-    border-radius: 1.5vw;
-    font-size: .9vw;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+	background: #fafafa;
+	color: var(--main-color);
+	transform: rotateY(180deg);
+	padding: 30px;
+	border-radius: 1.5vw;
+	font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
+
+.service .back .back-btn
+{
+    margin-top: 20px;
+}
 
                                                                     /* CASE STUDY */
 

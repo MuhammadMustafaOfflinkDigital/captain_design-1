@@ -1,5 +1,80 @@
 @media only screen and (max-width: 2561px)
 {
+
+    /* Service Section */
+
+    .service .service-text-img 
+    {
+        height: 201px;
+        top: 258px;
+    }
+
+    .service .service-text-img 
+    {
+        width: 50vw;
+        height: 28vw;
+    }
+
+    .service .service-text-img img 
+    {
+        width: 70vw;
+    }
+
+    .service .service-path-img 
+    {
+        top: 19.5vw;
+    }
+
+    .service .service-path-img img 
+    {
+        width: 29vw;
+    }
+
+    .service .service-card-container-img 
+    {
+        margin-top: 13vw;
+    }
+
+    .service .service-card-container .service-section-card-container 
+    {
+        margin-top: 11.25vw;
+    }
+
+    .service .maincontainer 
+    {
+        width: 241px;
+        height: 13vw;
+    }
+
+    .service .maincontainer1
+    {
+        transform: translateX(1.3vw);
+        -webkit-transform: translateX(1.3vw);
+        -moz-transform: translateX(1.3vw);
+        -ms-transform: translateX(1.3vw);
+        -o-transform: translateX(1.3vw);
+    }
+
+    .service .maincontainer2
+    {
+        transform: translateX(.2vw);
+        -webkit-transform: translateX(.2vw);
+        -moz-transform: translateX(.2vw);
+        -ms-transform: translateX(.2vw);
+        -o-transform: translateX(.2vw);
+    }
+
+    .service .maincontainer3 
+    {
+        transform: translateX(-1.25vw);
+        -webkit-transform: translateX(-1.25vw);
+        -moz-transform: translateX(-1.25vw);
+        -ms-transform: translateX(-1.25vw);
+        -o-transform: translateX(-1.25vw);
+    }
+
+    /* Footer Section */
+
     .footer-wrapper .footer-information .footer-information-heading 
     {
         font-size: 40px;
@@ -21,8 +96,124 @@
     }
 }
 
+@media only screen and (max-width: 2100px)
+{
+
+    /* Service Section */
+
+    .service .service-text-img 
+    {
+        width: 50vw;
+        height: 18vw;
+    }
+
+    .service .service-text-img img 
+    {
+        width: 60vw;
+    }
+
+    .service .service-path-img 
+    {
+        top: 23.5vw;
+    }
+
+    .service .service-card-container-img 
+    {
+        margin-top: 15vw;
+    }
+
+    .service .service-card-container .service-section-card-container 
+    {
+        margin-top: 13.25vw;
+    }
+
+    .service .maincontainer 
+    {
+        width: 258px;
+        height: 16vw;
+    }
+
+    .service .maincontainer3 
+    {
+        transform: translateX(-1.45vw);
+        -webkit-transform: translateX(-1.45vw);
+        -moz-transform: translateX(-1.45vw);
+        -ms-transform: translateX(-1.45vw);
+        -o-transform: translateX(-1.45vw);
+    }
+
+}
+
 @media only screen and (max-width: 1700px)
 {
+
+    /* Service Section */
+
+    .service .service-text-img 
+    {
+        top: 271px;
+    }
+
+    .service .service-text-img img 
+    {
+        width: 65vw;
+    }
+
+    .service .service-path-img 
+    {
+        top: 29.5vw;
+    }
+
+    .service .service-path-img img 
+    {
+        width: 42vw;
+    }
+
+    .service .service-card-container-img 
+    {
+        margin-top: 20vw;
+    }
+
+    .service .service-card-container .service-section-card-container 
+    {
+        margin-top: 18.25vw;
+    }
+
+    .service .maincontainer 
+    {
+        width: 234px;
+        height: 294px;
+    }
+
+    .service .maincontainer1
+    {
+        transform: translateX(1vw);
+        -webkit-transform: translateX(1vw);
+        -moz-transform: translateX(1vw);
+        -ms-transform: translateX(1vw);
+        -o-transform: translateX(1vw);
+    }
+
+    .service .maincontainer2
+    {
+        transform: translateX(.1vw);
+        -webkit-transform: translateX(.1vw);
+        -moz-transform: translateX(.1vw);
+        -ms-transform: translateX(.1vw);
+        -o-transform: translateX(.1vw);
+    }
+
+    .service .maincontainer3 
+    {
+        transform: translateX(-1.45vw);
+        -webkit-transform: translateX(-1.45vw);
+        -moz-transform: translateX(-1.45vw);
+        -ms-transform: translateX(-1.45vw);
+        -o-transform: translateX(-1.45vw);
+    }
+
+    /* Footer Section */
+
     .footer-wrapper .footer-information .footer-information-heading 
     {
         font-size: 30px;
@@ -42,10 +233,66 @@
     {
         width: 300px;
     }
+
 }
 
 @media only screen and (max-width: 1441px)
 {
+
+    /* Service Section */
+
+    .service .service-text-img 
+    {
+        width: 60vw;
+        height: 53vw;
+    }
+
+    .service .service-text-img img 
+    {
+        width: 75vw;
+    }
+
+    .service .service-text-img 
+    {
+        top: 274px;
+        width: 60vw;
+        height: 21vw;
+    }
+
+    .service .service-path-img 
+    {
+        top: 34.5vw;
+    }
+
+    .service .service-card-container-img 
+    {
+        margin-top: 22vw;
+    }
+
+    .service .service-card-container .service-section-card-container 
+    {
+        margin-top: 20.25vw;
+    }
+
+    .service .maincontainer 
+    {
+        width: 201px;
+        height: 259px;
+    }
+
+    .service .back 
+    {
+        padding: 16px;
+        font-size: 18px;
+    }
+
+    .main-btn 
+    {
+        padding: 8px 27px;
+        font-size: 12px;
+    }
+    
+    /* Footer Section */
 
     .footer-wrapper .footer-information .footer-information-heading 
     {
@@ -111,15 +358,89 @@
 {
     /* Custom CSS */
 
+    h1
+    {
+        font-size: 40px;
+    }
+
     h2 
     {
         font-size: 24px;
+    }
+
+    h3
+    {
+        font-size: 20px;
     }
 
     h5
     {
         font-size: 14px;
     }
+
+    /* Service Section */
+
+    .service .service-text-img 
+    {
+        top: 217px;
+        width: 90vw;
+        height: 36vw;
+    }
+
+    .service .service-text-img img 
+    {
+        width: 101vw;
+    }
+
+    .service .service-path-img 
+    {
+        top: 42.5vw;
+    }
+
+    .service .service-path-img img 
+    {
+        width: 50vw;
+    }
+
+    .service .service-menu 
+    {
+        width: 160px;
+        height: 160px;
+    }
+
+    .service .service-card-container-img 
+    {
+        margin-top: 30vw;
+    }
+
+    .service .service-card-container .service-section-card-container 
+    {
+        margin-top: 28.3vw;
+    }
+
+    .service .maincontainer 
+    {
+        width: 143px;
+        height: 183px;
+    }
+
+    .service .back 
+    {
+        padding: 7px;
+        font-size: 12px;
+    }
+
+    .service .back .back-btn 
+    {
+        margin-top: 9px;
+    }
+
+    .service .back .back-btn .main-btn {
+        padding: 8px 19px;
+        font-size: 9px;
+    }
+
+    /* Footer Section */
 
     .footer-wrapper .footer-contact-form .footer-contact-form-logo 
     {
@@ -250,8 +571,49 @@
 
     h3 
     {
-        font-size: 20px;
+        font-size: 18px;
     }    
+
+    /* Service Section */
+
+    .service 
+    {
+        min-height: 100vh;
+    }
+
+    .service .service-menu-2 
+    {
+        transform: translateY(147px);
+        margin: 0 16px;
+    }
+
+    .service .service-path-img 
+    {
+        top: 48.5vw;
+    }
+
+    .service .service-text-img 
+    {
+        top: 256px;
+    }
+
+    .service .service-card-container-img 
+    {
+        margin-top: 31.5vw;
+    }
+
+    .service .service-card-container .service-section-card-container 
+    {
+        margin-top: 29.8vw;
+    }
+
+    .service .maincontainer 
+    {
+        width: 138px;
+        height: 178px;
+    }
+
+    /* Footer Section */
 
     .footer-wrapper .footer-information-img-container 
     {
@@ -312,6 +674,60 @@
         line-height: 24px;
     }
 
+    /* Service Section */
+
+    .service .service-text-img 
+    {
+        display: none;
+    }
+
+    .service .service-path-img 
+    {
+        display: none;
+    }
+
+    .service .service-menu 
+    {
+        width: 318px;
+        height: 82px;
+        flex-direction: row;
+        margin: 2px;
+        border-radius: 80px;
+        transform: translateY(10px);
+        -webkit-transform: translateY(10px);
+        -moz-transform: translateY(10px);
+        -ms-transform: translateY(10px);
+        -o-transform: translateY(10px);
+    }
+
+    .service .service-menu h5 
+    {
+        color: var(--main-color);
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .service .service-menu .service-menu-content 
+    {
+        border: none;
+        transform: translateX(0px);
+        position: initial;
+        width: auto;
+        background-color: transparent;
+    }
+
+    .service .service-card-container-img img 
+    {
+        display: none;
+    }
+
+    .service .service-card-container .service-section-card-container 
+    {
+        margin-top: 20px;
+    }
+
+    /* Footer Section */
+
     .footer-wrapper .footer-information .footer-information-row .footer-information-col-1 
     {
         margin-right: 30px;
@@ -340,6 +756,50 @@
 
 @media only screen and (max-width: 575px)
 {
+
+    h1
+    {
+        font-size: 35px;
+        line-height: 1;
+    }
+
+    h3
+    {
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    /* Service Section */
+
+    .service
+    {
+        min-height: 194vh;
+    }
+
+    .service .service-card-container .service-section-card-container 
+    {
+        margin-top: 295px;
+    }
+
+    .service .maincontainer3 
+    {
+        transform: translateX(1vw);
+        -webkit-transform: translateX(1vw);
+        -moz-transform: translateX(1vw);
+        -ms-transform: translateX(1vw);
+        -o-transform: translateX(1vw);
+    }
+
+    .service .maincontainer4 
+    {
+        transform: translateX(.3vw);
+        -webkit-transform: translateX(.3vw);
+        -moz-transform: translateX(.3vw);
+        -ms-transform: translateX(.3vw);
+        -o-transform: translateX(.3vw);
+    }
+
+    /* Footer Section */
 
     .footer-wrapper .footer-contact-form .footer-contact-form-logo 
     {
@@ -411,6 +871,40 @@
 }
 @media only screen and (max-width: 376px)
 {
+
+    h1 
+    {
+        font-size: 30px;
+    }
+
+    /* Service Section */
+
+    .service
+    {
+        min-height: 188vh;
+    }
+
+    .service .back 
+    {
+        padding: 6px;
+    }
+
+    .service .back 
+    {
+        padding: 6px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .service .back .main-btn 
+    {
+        padding: 4px 9px;
+        font-weight: 600;
+        font-size: 9px;
+    }
+
+    /* Footer Section */
+
     .footer-wrapper .footer-contact-form .footer-contact-form-logo 
     {
         transform: translate(100px , -90px);
