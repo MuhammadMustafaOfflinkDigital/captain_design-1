@@ -96,10 +96,6 @@
     }
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 298b67e1460a3a1f92f4ba7b7a7428573f765d40
 @media only screen and (max-width: 2100px)
 {
 
@@ -133,11 +129,7 @@
 
     .service .maincontainer 
     {
-<<<<<<< HEAD
-        width: 258px;
-=======
         width: 257px;
->>>>>>> 298b67e1460a3a1f92f4ba7b7a7428573f765d40
         height: 16vw;
     }
 
@@ -220,13 +212,10 @@
         -o-transform: translateX(-1.45vw);
     }
 
-<<<<<<< HEAD
-=======
     .service .back .back-btn {
         margin-top: -5px;
     }
 
->>>>>>> 298b67e1460a3a1f92f4ba7b7a7428573f765d40
     /* Footer Section */
 
     .footer-wrapper .footer-information .footer-information-heading 
@@ -251,10 +240,6 @@
 
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 298b67e1460a3a1f92f4ba7b7a7428573f765d40
 @media only screen and (max-width: 1441px)
 {
 
@@ -305,16 +290,15 @@
         font-size: 18px;
     }
 
-<<<<<<< HEAD
+
     .main-btn 
-=======
+
     .service .back .main-btn 
->>>>>>> 298b67e1460a3a1f92f4ba7b7a7428573f765d40
     {
         padding: 8px 27px;
         font-size: 12px;
     }
-<<<<<<< HEAD
+
     
     /* Footer Section */
 
@@ -891,8 +875,6 @@
         font-size: 9px;
         padding: 10px 0;
     }
-=======
->>>>>>> 298b67e1460a3a1f92f4ba7b7a7428573f765d40
     
     /* Footer Section */
 
@@ -955,9 +937,6 @@
         transform: translateX(0px);
     }
 }
-<<<<<<< HEAD
-=======
-
 
 @media only screen and (max-width: 1025px){
     /* Custom CSS */
@@ -1639,7 +1618,6 @@
         display: none;
     }
 }
->>>>>>> 298b67e1460a3a1f92f4ba7b7a7428573f765d40
 @media only screen and (max-width: 376px)
 {
 

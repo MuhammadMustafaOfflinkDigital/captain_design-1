@@ -86,7 +86,6 @@ window.onscroll = function () {
         nav.classList.remove("header-scrolled");
     }
 } 
-<<<<<<< HEAD
 
 // nav hide 
 let navBar = document.querySelectorAll(".nav-link");
@@ -96,16 +95,7 @@ navBar.forEach(function (a){
         navCollapse.classList.remove("show");
     })
 })
-=======
 
-// nav hide 
-let navBar = document.querySelectorAll(".nav-link");
-let navCollapse = document.querySelector(".navbar-collapse.collapse");
-navBar.forEach(function (a){
-    a.addEventListener("click", function(){
-        navCollapse.classList.remove("show");
-    })
-})
 
 
 // PRICING SECTION JS
@@ -159,4 +149,3 @@ function marketingPrice (){
 document.getElementById("main-btn").onclick = function() {
     this.classList.toggle("clicked");
 };
->>>>>>> 298b67e1460a3a1f92f4ba7b7a7428573f765d40
