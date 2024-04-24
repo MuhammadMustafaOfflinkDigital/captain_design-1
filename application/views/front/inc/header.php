@@ -47,7 +47,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"></li>
     <link rel="stylesheet" href="assets/front/css/main.css">
     <link rel="stylesheet" href="assets/front/css/responsive.css">
-    <title>HELLO</title>
+    <title>Captain Design Agency</title>
 </head>
 <body>
 
@@ -136,7 +136,7 @@
 									<a class="nav-link" href="portfolio.php">Portfolio</a>
 								</li>
 								<li class="nav-item">
-									<a class="nav-link" href="contact.php">Contact Us</a>
+									<a class="nav-link" href="contact">Contact Us</a>
 								</li>
 								<li class="nav-item nav-btn mt-3 mt-lg-0">
 									<a class="main-btn" href="#">Live Chat</a>

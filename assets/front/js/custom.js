@@ -86,6 +86,7 @@ window.onscroll = function () {
         nav.classList.remove("header-scrolled");
     }
 } 
+<<<<<<< HEAD
 
 // nav hide 
 let navBar = document.querySelectorAll(".nav-link");
@@ -95,3 +96,67 @@ navBar.forEach(function (a){
         navCollapse.classList.remove("show");
     })
 })
+=======
+
+// nav hide 
+let navBar = document.querySelectorAll(".nav-link");
+let navCollapse = document.querySelector(".navbar-collapse.collapse");
+navBar.forEach(function (a){
+    a.addEventListener("click", function(){
+        navCollapse.classList.remove("show");
+    })
+})
+
+
+// PRICING SECTION JS
+
+function logoPrice () {
+    const logoCrousal = document.querySelector(".logoCrousal")
+    const brandingCrousal = document.querySelector(".brandingCrousal")
+    const webCrousal = document.querySelector(".webCrousal")
+    const marketingCrousal = document.querySelector(".marketingCrousal")
+    logoCrousal.style.display = "flex"
+    brandingCrousal.style.display = "none"
+    webCrousal.style.display = "none"
+    marketingCrousal.style.display = "none"
+
+
+}
+function brandingPrice(){
+    const logoCrousal = document.querySelector(".logoCrousal")
+    const brandingCrousal = document.querySelector(".brandingCrousal")
+    const webCrousal = document.querySelector(".webCrousal")
+    const marketingCrousal = document.querySelector(".marketingCrousal")
+    logoCrousal.style.display = "none"
+    brandingCrousal.style.display = "flex"
+    webCrousal.style.display = "none"
+    marketingCrousal.style.display = "none"
+}
+function webPrice (){
+    const logoCrousal = document.querySelector(".logoCrousal")
+    const brandingCrousal = document.querySelector(".brandingCrousal")
+    const webCrousal = document.querySelector(".webCrousal")
+    const marketingCrousal = document.querySelector(".marketingCrousal")
+    logoCrousal.style.display = "none"
+    brandingCrousal.style.display = "none"
+    webCrousal.style.display = "flex"
+    marketingCrousal.style.display = "none"
+}
+function marketingPrice (){
+    const logoCrousal = document.querySelector(".logoCrousal")
+    const brandingCrousal = document.querySelector(".brandingCrousal")
+    const webCrousal = document.querySelector(".webCrousal")
+    const marketingCrousal = document.querySelector(".marketingCrousal")
+    logoCrousal.style.display = "none"
+    brandingCrousal.style.display = "none"
+    webCrousal.style.display = "none"
+    marketingCrousal.style.display = "flex"
+}
+
+
+// Toggle button
+
+document.getElementById("main-btn").onclick = function() {
+    this.classList.toggle("clicked");
+};
+>>>>>>> 298b67e1460a3a1f92f4ba7b7a7428573f765d40
