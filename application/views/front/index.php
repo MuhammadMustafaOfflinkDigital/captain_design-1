@@ -58,6 +58,7 @@
                             <div>
                             <input type="submit" value="Submit" class="submit mb-3">
                             </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -106,6 +107,103 @@
         
     </div>
 </section>
+
+    <!-- Service Section -->
+
+    <section class="index-fourth-wrapper service position-relative">
+        <img src="assets/front/images/service_section/background.png" alt="Service" class="service-background position-absolute">
+        <div class="container">
+            <div class="row d-flex justify-content-center align-items-center text-center">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" data-aos="fade-up" data-aos-easing="ease"
+                    data-aos-duration="1000">
+                    <p>TOP WEB DESIGN AGENCY</p>
+                    <h1><span>WE GROW BRANDS ONLINE</span></h1>
+                    <h3>CUSTOM WEBSITES, BRANDING & DIGITAL MARKETING SOLUTIONS</h3>
+                    <h1>Our Expertise</h1>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 service-text-img position-absolute">
+                        <img src="assets/front/images/service_section/text.png" alt="Text">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 service-path-img">
+                    <img src="assets/front/images/service_section/path.png " alt="">
+                </div>
+                <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 service-menu">
+                    <img src="" alt="">
+                    <h5>Digital Marketing</h5>
+                </div>
+                <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 service-menu service-menu-2">
+                    <img src="" alt="">
+                    <h5>Logo Design</h5>
+                </div>
+                <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 service-menu service-menu-2">
+                    <img src="" alt="">
+                    <h5>Branding</h5>
+                </div>
+                <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 service-menu">
+                    <img src="" alt="">
+                    <h5>Website Development</h5>
+                </div>
+                <div class="row position-relative service-card-container">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 service-card-container-img">
+                        <img src="assets/front/images/service_section/bottom_path.png" alt="">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-3 maincontainer maincontainer1">
+                        <div class="card">
+                            <div class="front">
+                                <img src="assets/front/images/service_section/bottom1.png" alt="">
+                            </div>
+                            <div class="back">
+                                First we conduct research on the business and its target audience to understand the scale of demand.
+                                <div>
+                                    <a href="" class="btn">View More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-3 maincontainer maincontainer2">
+                        <div class="card">
+                            <div class="front">
+                                <img src="assets/front/images/service_section/bottom2.png" alt="">
+                            </div>
+                            <div class="back">
+                                Concepts are frame wired with the client's feedback and they are submitted for review and revisions. 
+                                <div>
+                                    <a href="" class="btn">View More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-3 maincontainer maincontainer3">
+                        <div class="card">
+                            <div class="front">
+                                <img src="assets/front/images/service_section/bottom3.png" alt="">
+                            </div>
+                            <div class="back">
+                                With multiple revisions the concepts are finalized in the form of a prototype that you have got in mind.
+                                <div>
+                                    <a href="" class="btn">View More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-3 maincontainer maincontainer4">
+                        <div class="card">
+                            <div class="front">
+                                <img src="assets/front/images/service_section/bottom4.png" alt="">
+                            </div>
+                            <div class="back">
+                                Finally the website or the campaign is tested for irregularities or bugs, then it is deployed live for the world to see!
+                                <div>
+                                    <a href="" class="btn">View More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- Case Study Section -->
     
@@ -255,7 +353,7 @@
     </div>
 </section>
 
-<!-- 
+
 <section class="index-third-wrapper">
     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6" data-aos="fade-left" data-aos-easing="ease"
         data-aos-duration="1000">
@@ -304,4 +402,4 @@
         <div class="index-seventh-wrap-text">
         </div>
     </div>
-</section> -->
+</section>
